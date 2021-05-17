@@ -4,6 +4,7 @@ import ktlib.KotlinTest;
 
 public class JavaTest {
     public static void main(String[] args) {
-        KotlinTest.test();
+        System.out.println(KotlinTest.test());
+        System.out.println(ktlib.KotlinTestKt.outside());
     }
 }

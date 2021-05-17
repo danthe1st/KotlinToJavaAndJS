@@ -13,3 +13,7 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
   $routeProvider.otherwise({redirectTo: '/view1'});
 }]);
 
+
+//use kotlin library
+console.log(kotlinToJavaAndJS.ktlib.outside())
+console.log(kotlinToJavaAndJS.ktlib.KotlinTest.Companion.test())
