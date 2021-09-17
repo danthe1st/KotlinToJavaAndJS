@@ -1,5 +1,5 @@
 plugins {
-    kotlin("multiplatform") version "1.5.0"
+    kotlin("multiplatform") version "1.5.30"
 }
 
 group = "io.github.danthe1st"
